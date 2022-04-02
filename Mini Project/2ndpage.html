@@ -31,27 +31,30 @@
         </nav>
     </header>
     <section>
-        <div class="base">
-            <h1 class="Heading1">Encryption Page</h1>
-            <hr>
-            <h3 class="Heading">Upload the file you want to Encrypt</h3>
-            <label for="myfile">Select a file: </label>
-            <input type="file" id="myfile" name="myfile" />
-            <br>
-            <input type="submit"/>
-            <button class="enc">
-                Encrypt 
-            </button>
-        </div>
-            <div id="left">
+        <h1 class="Heading1">Encryption Page</h1>
+        <div class="main">
+            <div class = "first">
+            <h3 class="Heading" class="big">Upload the file you want to Encrypt</h3>
+            <p>File encryption protects individual files or file systems by encrypting them with a specific key, 
+                making them accessible only to the keyholder.
+                Encryption means converting the plain text data into some coded form</p>
+                <br>
+                <label for="myfile">Select a file: </label>
+                <input type="file" id="myfile" name="myfile" />
+                <br>
+                    <!-- <input type="submit"/> -->
+                <p class="big">If you want to encrypt your file press the below button</p>
+                <button class="enc">Encrypt</button>
+            </div>
+            <div class="second">    
                 <img src="Encryption.jpg" alt="Encryption">
             </div>
-            <div id="right" class="base">
-                <h3 class="Heading">Download your Encrypted File</h3>
-                <button class="enc">
-                    Download
-                </button>
-            </div>
+        </div>
+        <div class="new">
+            <h3 class="Heading" class ="big">Download your Encrypted File</h3>
+            <p class="big">To download your encrypted file press the below button</p>
+            <button class="enc">Download</button>
+        </div>
     </section>
 </body>
 </html>
