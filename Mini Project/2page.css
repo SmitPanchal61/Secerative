@@ -62,10 +62,12 @@ input[type="submit"]{
     border-radius: 8px;
     margin:25px 50px;
     padding: 10px 12px;
+    font-family: 'Exo', sans-serif;
 }
 input[type="file"]{
     margin-left: 44px;
     font-size: 18px;
+    font-family: 'Exo', sans-serif;
 }
 .enc{
     border-radius: 5px;

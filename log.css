@@ -3,6 +3,7 @@ body{
     padding: 0;
     height: 100vh;
     overflow: hidden;
+    background-color: #c8d8e4;
 }
 .center1{
     position: absolute;
@@ -17,23 +18,28 @@ body{
     text-align: center;
     padding: 0 0 20px 0;
     border-bottom: lightsteelblue;
+    font-family: 'Pacifico', cursive;
 }
 .center1 form{
     padding: 0 40px;
     box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
 } 
 form .text{
     position: relative;
     margin: 30px 0;
+    font-family: 'Exo', sans-serif;
 }
 .text input{
     width: 100%;
     padding: 0 5px;
     height: 40px;
     font-size: 16px;
-    border: none;
-    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #c8d8e4;
     outline: none;
+    font-family: 'Exo', sans-serif;
 }
 .pass{
     margin: -5px 0 20px 5px;
@@ -56,6 +62,7 @@ form .text{
     font-weight: 700;
     cursor: pointer;
     outline: none;
+    font-family: 'Exo', sans-serif;
 }
 .button:hover{
     background-color: #52ab98;
