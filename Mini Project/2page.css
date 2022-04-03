@@ -17,7 +17,7 @@ h3{
 }
 .Heading{
     padding: 20px 26px;
-    width: 50%;
+    width: 60%;
     color: #2b6777;
     font-size: 30px;
     font-family: 'Exo', sans-serif;
@@ -82,11 +82,11 @@ input[type="file"]{
     background-color: #52ab98;
     color: #2b6777;
 }
-img{
+#fencimg{
     object-fit: cover;
     width: 414px;
     height: 357px;
-    margin-top:15px;
+    margin-bottom:200px;
     border-radius: 5px;
 }
 
