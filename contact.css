@@ -111,6 +111,7 @@ body{
   border-radius: 6px;
   background: #2b6777;
   cursor: pointer;
+  margin: 0 8px;
 }
 .button input[type="button"]:hover{
   background: #52ab98;
@@ -154,4 +155,19 @@ body{
     width: 100%;
     margin-left: 0;
   }
+}
+
+.back-button {
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #2b6777;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 8px;
+}
+
+.back-button:hover {
+  background: #52ab98;
+  color: #2b6777;
 }
