@@ -33,7 +33,7 @@ def decode_message(message):
 
     return new_word
 
-encryptionkey = pd.read_csv(r"decodekeynew.csv",
+encryptionkey = pd.read_csv(r"backend/decodekeynew.csv",
                             sep=',', names=['Character', 'Byte'], header=None, skiprows=[0])
 
 df = pd.DataFrame(data=encryptionkey)
@@ -44,7 +44,8 @@ df['Byte'] = df['Byte'].astype(str)
 def split(message):
     return [char for char in message]
 
-message = 'hello'
+message = 'hi my name is smit'
+print(f"your message : {message}")
 
 message_split = split(message)
 
